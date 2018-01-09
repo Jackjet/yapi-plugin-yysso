@@ -17,7 +17,7 @@ module.exports = function (options) {
     let ret = qualifyURL(loginURI, true);
     let redirectURL = AUTH_SERVER  + '?service=' + ret;
     location.href = redirectURL;
-    alert(redirectURL);
+    // alert(redirectURL);
   }
 
   const QssoComponent = () => (

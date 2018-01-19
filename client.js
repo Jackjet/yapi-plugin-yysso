@@ -21,7 +21,7 @@ module.exports = function (options) {
   }
 
   const QssoComponent = () => (
-    <button onClick={handleLogin} className="btn-home btn-home-normal" >SSO 登录</button>
+    <button onClick={handleLogin} className="btn-home btn-home-normal" >登录</button>
   )
 
   this.bindHook('third_login', QssoComponent);
